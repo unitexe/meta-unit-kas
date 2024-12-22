@@ -1,0 +1,7 @@
+header:
+  version: 18
+
+repos:
+  poky:
+    branch: master
+    commit: e16e725fb51fd612814c41a122f77af7e62833d8

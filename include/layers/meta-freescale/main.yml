@@ -1,0 +1,7 @@
+header:
+  version: 18
+
+repos:
+  meta-freescale:
+    branch: master
+    commit: 82193457cee235862946a268ba249abf3ac83cdb

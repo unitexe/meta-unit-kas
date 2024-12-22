@@ -1,0 +1,7 @@
+header:
+  version: 18
+
+repos:
+  meta-freescale:
+    branch: scarthgap
+    commit: 9f7ec458e78fc07ec8bea4fc906d04be6a5a34d7

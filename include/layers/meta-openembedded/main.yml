@@ -1,0 +1,7 @@
+header:
+  version: 18
+
+repos:
+  meta-openembedded:
+    branch: master
+    commit: da51096bcf257723a929c799bc6934877de81fa5

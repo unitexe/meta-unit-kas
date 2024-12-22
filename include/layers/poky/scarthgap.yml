@@ -1,0 +1,7 @@
+header:
+  version: 18
+
+repos:
+  poky:
+    branch: scarthgap
+    commit: 2541a8171f91812a4b16e7dc4da0d77d2318a256

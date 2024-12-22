@@ -1,0 +1,8 @@
+header:
+  version: 18
+
+repos:
+  meta-freescale-extra:
+    branch: main
+    commit: ece90268a801d03065fb48aca770bfba2e5eeeae
+ 

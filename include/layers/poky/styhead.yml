@@ -1,0 +1,7 @@
+header:
+  version: 18
+
+repos:
+  poky:
+    branch: styhead
+    commit: bca4068948e4383cc18a24a3c224bbc339f7de2a

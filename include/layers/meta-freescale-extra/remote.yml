@@ -1,0 +1,7 @@
+header:
+  version: 18
+
+repos:
+  meta-freescale-extra:
+    url: https://github.com/unitexe/meta-freescale-extra.git
+    path: layers/meta-freescale-extra
