@@ -1,0 +1,7 @@
+header:
+  version: 18
+
+repos:
+  meta-raspberrypi:
+    branch: scarthgap
+    commit: 1918a27419dcd5e79954c0dc0edddcde91057a7e

@@ -1,0 +1,8 @@
+header:
+  version: 18
+
+local_conf_header:
+  meta-raspberrypi: |
+    LICENSE_FLAGS_ACCEPTED:append = " synaptics-killswitch"
+    RPI_USE_U_BOOT = "1"
+    ENABLE_UART = "1"

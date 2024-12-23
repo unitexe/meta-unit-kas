@@ -1,0 +1,7 @@
+header:
+  version: 18
+
+repos:
+  meta-raspberrypi:
+    branch: master
+    commit: 97d7a6b5ec09ee85d96e1ec4cabcaa5b24a805f3
