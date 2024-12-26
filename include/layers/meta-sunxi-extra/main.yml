@@ -1,0 +1,7 @@
+header:
+  version: 18
+
+repos:
+  meta-sunxi-extra:
+    branch: main
+    commit: 0205fcf91f4117b49ad3f44d705bbed972c6cd87

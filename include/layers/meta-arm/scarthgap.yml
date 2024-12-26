@@ -1,0 +1,7 @@
+header:
+  version: 18
+
+repos:
+  meta-arm:
+    branch: scarthgap
+    commit: 7088279c0ab00c7dabefdd4544951b4746b48476

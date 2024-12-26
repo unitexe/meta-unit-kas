@@ -1,0 +1,7 @@
+header:
+  version: 18
+
+repos:
+  meta-sunxi-extra:
+    url: https://github.com/unitexe/meta-sunxi-extra.git
+    path: layers/meta-sunxi-extra

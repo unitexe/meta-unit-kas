@@ -1,0 +1,7 @@
+header:
+  version: 18
+
+repos:
+  meta-sunxi:
+    url: https://github.com/linux-sunxi/meta-sunxi.git
+    path: layers/meta-sunxi

@@ -1,0 +1,7 @@
+header:
+  version: 18
+
+repos:
+  meta-sunxi:
+    branch: scarthgap
+    commit: c73c0a2c4a91a99ea822bbc1855060fe328c310b

@@ -1,0 +1,7 @@
+header:
+  version: 18
+
+repos:
+  meta-arm:
+    branch: styhead
+    commit: 18bc3f9389907f805b0a8ad4b6543bbdd0274d5e

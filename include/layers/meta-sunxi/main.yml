@@ -1,0 +1,7 @@
+header:
+  version: 18
+
+repos:
+  meta-sunxi:
+    branch: master
+    commit: f2f4c6a0bc57167d6cb25731898c9d8d6cc3e177
