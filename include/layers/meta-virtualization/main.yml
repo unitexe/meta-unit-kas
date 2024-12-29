@@ -1,0 +1,7 @@
+header:
+  version: 18
+
+repos:
+  meta-virtualization:
+    branch: master
+    commit: c1f668c337a56457acacbbefe4d1f1989202ba95

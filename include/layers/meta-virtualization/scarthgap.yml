@@ -1,0 +1,7 @@
+header:
+  version: 18
+
+repos:
+  meta-virtualization:
+    branch: scarthgap
+    commit: 450941a1b6df96285691e8c23d4f332d3c88a994

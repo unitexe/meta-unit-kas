@@ -1,0 +1,7 @@
+header:
+  version: 18
+
+repos:
+  meta-virtualization-extra:
+    branch: main
+    commit: 7a23a50ee8bad47cd982c6372ed85c5733470510

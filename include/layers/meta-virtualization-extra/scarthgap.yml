@@ -1,0 +1,7 @@
+header:
+  version: 18
+
+repos:
+  meta-virtualization-extra:
+    branch: scarthgap
+    commit: 33a5d31730a8b107b65419e29ca8a027f64006ca

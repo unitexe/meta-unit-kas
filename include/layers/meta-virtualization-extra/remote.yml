@@ -1,0 +1,7 @@
+header:
+  version: 18
+
+repos:
+  meta-virtualization-extra:
+    url: https://github.com/unitexe/meta-virtualization-extra.git
+    path: layers/meta-virtualization-extra
