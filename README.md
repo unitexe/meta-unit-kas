@@ -1,48 +1,7 @@
 # meta-unit-kas
-A collection of kas configuration files.
+A collection of kas configuration files that can be used to build images targeting the `poky` distro for the `scarthgap`, `styhead` and `walnascar` releases of the Yocto project. OS images can be built for a number of machines including `qemuarm`, `qemuarm64`, `qemux86-64`, `olimex-imx8mp-evb`, `olinuxino-a20-emmc` and `raspberrypi3-64`.
 
 ## Getting Started
-Create virtual python environment.
-```bash
-python -m venv ~/.venv.yocto
-```
-
-Activate virtual python environment kas was added to.
-```bash
-source ~/.venv.yocto/bin/activate
-```
-
-Clone kas repository.
-```bash
-cd ~/dev/src && git clone https://github.com/siemens/kas.git
-```
-
-Install kas to virtual python enviroment.
-```bash
-pip3 install .
-```
-
-Create build directory.
-```bash
-mkdir -p /home/$(whoami)/dev/yocto/unit/build/scarthgap/poky/olimex-imx8mp-evb
-```
-
-Setup kas environment variables based on the release, distro & machine you would like to target.
-```bash
-export KAS_BUILD_DIR="/home/$(whoami)/dev/yocto/unit/build/scarthgap/poky/olimex-imx8mp-evb/"
-export KAS_WORK_DIR=$KAS_BUILD_DIR
-export SSTATE_DIR="/home/$(whoami)/dev/yocto/unit/build/scarthgap/sstate/"
-export DL_DIR="/home/$(whoami)/dev/yocto/unit/dl"
-```
-
-Build using `kas-container`.
-```bash
-kas-container build ~/dev/src/meta-unit-kas/images/poky/olimex-imx8mp-evb/core-image-base/scarthgap.yml
-```
-
-After build finishes, create boot media.
-```bash
-cd $KAS_BUILD_DIR && sudo bmaptool copy --bmap tmp/deploy/images/olimex-imx8mp-evb/core-image-base-olimex-imx8mp-evb.rootfs.wic.bmap tmp/deploy/images/olimex-imx8mp-evb/core-image-base-olimex-imx8mp-evb.rootfs.wic.gz /dev/mmcblk0
-```
-
-Now you can run on the target.
+See [wiki](https://github.com/unitexe/meta-unit-kas/wiki) for instructions to:
+* [Setup build environment](https://github.com/unitexe/meta-unit-kas/wiki/Setup-build-environment) for the first time
+* [Build and run a QEMU image](https://github.com/unitexe/meta-unit-kas/wiki/Build-and-run-a-QEMU-image)
