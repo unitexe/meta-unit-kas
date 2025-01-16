@@ -4,4 +4,4 @@ header:
 repos:
   meta-sunxi:
     branch: master
-    commit: f2f4c6a0bc57167d6cb25731898c9d8d6cc3e177
+    commit: 363feb2ce85a3b705cdd204669ba626df43dde2f

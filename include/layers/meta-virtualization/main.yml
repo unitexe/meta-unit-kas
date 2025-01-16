@@ -4,4 +4,4 @@ header:
 repos:
   meta-virtualization:
     branch: master
-    commit: c1f668c337a56457acacbbefe4d1f1989202ba95
+    commit: 74087fc372e5de3820b36eea0da94803d6a80c60

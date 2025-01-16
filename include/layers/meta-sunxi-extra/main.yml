@@ -4,4 +4,4 @@ header:
 repos:
   meta-sunxi-extra:
     branch: main
-    commit: 0205fcf91f4117b49ad3f44d705bbed972c6cd87
+    commit: 7c2e8dadeb91e0b464b6e789eb5ee6dea78a531c
