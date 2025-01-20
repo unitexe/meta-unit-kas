@@ -1,0 +1,7 @@
+header:
+  version: 18
+
+repos:
+  meta-unit-apps:
+    url: https://github.com/unitexe/meta-unit-apps
+    path: layers/meta-unit-apps

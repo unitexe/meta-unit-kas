@@ -1,0 +1,7 @@
+header:
+  version: 18
+
+repos:
+  meta-dotnet:
+    branch: trunk
+    commit: 98d5ce191d23388076298a5e4148a426cd939be8

@@ -8,3 +8,8 @@ header:
     - include/layers/poky/scarthgap.yml
     - include/layers/poky/conf.yml
     - include/layers/poky/passwordless-root-login.yml
+    - include/layers/meta-dotnet/remote.yml
+    - include/layers/meta-dotnet/main.yml
+    - include/layers/meta-dotnet/conf.yml
+    - include/layers/meta-unit-apps/remote.yml
+    - include/layers/meta-unit-apps/main.yml

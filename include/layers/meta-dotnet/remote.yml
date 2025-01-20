@@ -1,0 +1,7 @@
+header:
+  version: 18
+
+repos:
+  meta-dotnet:
+    url: https://github.com/jeremy-prater/meta-dotnet
+    path: layers/meta-dotnet
