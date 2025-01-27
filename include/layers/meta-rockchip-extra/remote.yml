@@ -1,0 +1,8 @@
+
+header:
+  version: 18
+
+repos:
+  meta-rockchip-extra:
+    url: https://github.com/unitexe/meta-rockchip-extra.git
+    path: layers/meta-rockchip-extra

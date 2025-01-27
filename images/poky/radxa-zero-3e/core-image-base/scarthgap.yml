@@ -1,0 +1,25 @@
+header:
+  version: 18
+  includes:
+    - include/layers/poky/distro.yml
+    - include/layers/poky/core-image-base.yml
+    - include/layers/meta-rockchip/radxa-zero-3e.yml
+    - include/layers/poky/remote.yml
+    - include/layers/poky/scarthgap.yml
+    - include/layers/poky/conf.yml
+    - include/layers/poky/passwordless-root-login.yml
+    - include/layers/meta-arm/remote.yml
+    - include/layers/meta-arm/scarthgap.yml
+    - include/layers/meta-rockchip/remote.yml
+    - include/layers/meta-rockchip/scarthgap.yml
+    - include/layers/meta-rockchip/conf.yml
+    - include/layers/meta-rockchip/patches/scarthgap/patches.yml
+    - include/layers/meta-rockchip-extra/remote.yml
+    - include/layers/meta-rockchip-extra/scarthgap.yml
+    - include/layers/this.yml
+
+repos:
+  meta-arm:
+    layers:
+      meta-arm-toolchain:
+      meta-arm:

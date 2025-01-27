@@ -1,0 +1,9 @@
+header:
+  version: 18
+
+repos:
+  meta-rockchip:
+    patches:
+      quilt:
+        repo: meta-unit-kas
+        path: include/layers/meta-rockchip/patches/styhead/quilt/

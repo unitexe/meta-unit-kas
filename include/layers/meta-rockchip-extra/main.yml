@@ -1,0 +1,7 @@
+header:
+  version: 18
+
+repos:
+  meta-rockchip-extra:
+    branch: main
+    commit: d84042d26f1d683f51d7e9a7c934504f3018a078

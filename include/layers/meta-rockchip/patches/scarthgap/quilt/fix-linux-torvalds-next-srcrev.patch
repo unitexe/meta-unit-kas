@@ -1,0 +1,15 @@
+diff --git a/recipes-kernel/linux/linux-torvalds-next_git.bb b/recipes-kernel/linux/linux-torvalds-next_git.bb
+index b961b14..7c94ae2 100644
+--- a/recipes-kernel/linux/linux-torvalds-next_git.bb
++++ b/recipes-kernel/linux/linux-torvalds-next_git.bb
+@@ -17,8 +17,8 @@ SRC_URI = " \
+ 	git://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git;protocol=https;nobranch=1 \
+ 	file://rockchip-kmeta;type=kmeta;name=rockchip-kmeta;destsuffix=rockchip-kmeta \
+ 	"
+-# this is tag 'next-20240904'
+-SRCREV = "fdadd93817f124fd0ea6ef251d4a1068b7feceba"
++# this is tag 'next-20241025'
++SRCREV = "a39230ecf6b3057f5897bc4744a790070cfbe7a8"
+ 
+ inherit kernel
+ inherit kernel-yocto

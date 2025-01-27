@@ -1,0 +1,7 @@
+header:
+  version: 18
+
+repos:
+  meta-rockchip:
+    branch: scarthgap
+    commit: 0eaa4e1fc51dcd9726e76b1f0b6bebbd958b0976
