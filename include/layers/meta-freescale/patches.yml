@@ -1,0 +1,9 @@
+header:
+  version: 18
+
+repos:
+  meta-freescale:
+    patches:
+      quilt:
+        repo: meta-unit-kas
+        path: include/layers/meta-freescale/quilt/

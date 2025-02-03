@@ -1,0 +1,15 @@
+diff --git a/recipes-kernel/linux/linux-fslc-imx_6.6.bb b/recipes-kernel/linux/linux-fslc-imx_6.6.bb
+index eb9d2ab5..9dc1f6bf 100644
+--- a/recipes-kernel/linux/linux-fslc-imx_6.6.bb
++++ b/recipes-kernel/linux/linux-fslc-imx_6.6.bb
+@@ -63,8 +63,8 @@ Latest stable Kernel patchlevel is applied and maintained by Community."
+ require linux-imx.inc
+ 
+ KBRANCH = "6.6-2.2.x-imx"
+-SRC_URI = "git://github.com/Freescale/linux-fslc.git;branch=${KBRANCH};protocol=https"
+-SRCREV = "92bdc37231596ea6b737cf897cea98c356b9d248"
++SRC_URI = "git://github.com/unitexe/linux-fslc.git;branch=${KBRANCH};protocol=https"
++SRCREV = "997b7e13e413a7616ef8aaf5c92ef9393c1d11c9"
+ 
+ # PV is defined in the base in linux-imx.inc file and uses the LINUX_VERSION definition
+ # required by kernel-yocto.bbclass.

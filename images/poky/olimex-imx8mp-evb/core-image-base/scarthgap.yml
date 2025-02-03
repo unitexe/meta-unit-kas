@@ -13,10 +13,12 @@ header:
     - include/layers/meta-freescale/remote.yml
     - include/layers/meta-freescale/scarthgap.yml
     - include/layers/meta-freescale/conf.yml
+    - include/layers/meta-freescale/patches.yml
     - include/layers/meta-freescale-3rdparty/remote.yml
     - include/layers/meta-freescale-3rdparty/scarthgap.yml
     - include/layers/meta-freescale-distro/remote.yml
     - include/layers/meta-freescale-distro/scarthgap.yml
+    - include/layers/this.yml
 
 repos:
   meta-openembedded:
