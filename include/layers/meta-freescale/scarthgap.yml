@@ -4,4 +4,4 @@ header:
 repos:
   meta-freescale:
     branch: scarthgap
-    commit: d3cff98a23cfeb580d4a1fc09f995511eba0d795
+    commit: a8d29d6dad46fb55dacbd1ad80b1c8bf9ad1dd9a

@@ -13,12 +13,10 @@ header:
     - include/layers/meta-freescale/remote.yml
     - include/layers/meta-freescale/main.yml
     - include/layers/meta-freescale/conf.yml
-    - include/layers/meta-freescale/patches.yml
     - include/layers/meta-freescale-3rdparty/remote.yml
     - include/layers/meta-freescale-3rdparty/main.yml
     - include/layers/meta-freescale-distro/remote.yml
     - include/layers/meta-freescale-distro/main.yml
-    - include/layers/this.yml
 
 repos:
   meta-openembedded:
