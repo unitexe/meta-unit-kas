@@ -1,0 +1,7 @@
+header:
+  version: 18
+
+repos:
+  meta-flutter:
+    branch: scarthgap
+    commit: f12d340d5ac0bb5519e0bdb3d750c805501af308
