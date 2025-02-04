@@ -1,0 +1,41 @@
+header:
+  version: 18
+  includes:
+    - include/layers/poky/distro.yml
+    - include/layers/poky/core-image-unit.yml
+    - include/layers/meta-rockchip/radxa-zero-3e.yml
+    - include/layers/poky/remote.yml
+    - include/layers/poky/styhead.yml
+    - include/layers/poky/conf.yml
+    - include/layers/poky/passwordless-root-login.yml
+    - include/layers/meta-arm/remote.yml
+    - include/layers/meta-arm/styhead.yml
+    - include/layers/meta-rockchip/remote.yml
+    - include/layers/meta-rockchip/styhead.yml
+    - include/layers/meta-rockchip/conf.yml
+    - include/layers/meta-rockchip/patches/styhead/patches.yml
+    - include/layers/meta-rockchip-extra/remote.yml
+    - include/layers/meta-rockchip-extra/main.yml
+    - include/layers/meta-openembedded/remote.yml
+    - include/layers/meta-openembedded/styhead.yml
+    - include/layers/meta-virtualization/remote.yml
+    - include/layers/meta-virtualization/main.yml
+    - include/layers/meta-virtualization/conf.yml
+    - include/layers/meta-virtualization-extra/remote.yml
+    - include/layers/meta-virtualization-extra/styhead.yml
+    - include/layers/meta-virtualization-extra/conf.yml
+    - include/layers/meta-unit/remote.yml
+    - include/layers/meta-unit/main.yml
+    - include/layers/this.yml
+
+repos:
+  meta-arm:
+    layers:
+      meta-arm-toolchain:
+      meta-arm:
+  meta-openembedded:
+    layers:
+      meta-filesystems:
+      meta-oe:
+      meta-networking:
+      meta-python:
