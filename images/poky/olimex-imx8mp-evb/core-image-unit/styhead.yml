@@ -10,7 +10,7 @@ header:
     - include/layers/meta-openembedded/remote.yml
     - include/layers/meta-openembedded/styhead.yml
     - include/layers/meta-freescale/remote.yml
-    - include/layers/meta-freescale/main.yml
+    - include/layers/meta-freescale/styhead.yml
     - include/layers/meta-freescale/conf.yml
     - include/layers/meta-freescale-3rdparty/remote.yml
     - include/layers/meta-freescale-3rdparty/main.yml
