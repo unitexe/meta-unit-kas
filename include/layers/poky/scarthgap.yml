@@ -4,4 +4,4 @@ header:
 repos:
   poky:
     branch: scarthgap
-    commit: 184adcbc322f040614bc0c080c25a64252fcd58b
+    commit: ce9f4eaaae324ef4182a39293f3a6b2aa7207680
