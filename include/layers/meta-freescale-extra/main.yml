@@ -4,5 +4,5 @@ header:
 repos:
   meta-freescale-extra:
     branch: main
-    commit: 51222cc06204e97431e4201d46156de27c4926c6
+    commit: e4a579fe740d512714f717ec43ee233b0d0d853f
  
