@@ -22,3 +22,4 @@ repos:
     layers:
       meta-arm-toolchain:
       meta-arm:
+      meta-arm-bsp:
