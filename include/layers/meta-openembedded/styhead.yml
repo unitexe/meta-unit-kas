@@ -4,4 +4,4 @@ header:
 repos:
   meta-openembedded:
     branch: styhead
-    commit: 6851cbf026088a13b2b45f684838d3dc4d7ccfdd
+    commit: c93994f1bb601c57548b588d4f77a044d90822cf

@@ -4,4 +4,4 @@ header:
 repos:
   meta-arm:
     branch: scarthgap
-    commit: a8fe9d22eaefc294f91096c6a32663e2f4ab3b10
+    commit: 3cadb81ffaa9f03b92e302843cb22a9cd41df34b

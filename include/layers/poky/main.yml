@@ -4,4 +4,4 @@ header:
 repos:
   poky:
     branch: master
-    commit: 2ae32dae580105156a151fa3dc7cbfe8673636e5
+    commit: 331aef4bcf3ad9bbeea25b3463219f46d46bd4a6

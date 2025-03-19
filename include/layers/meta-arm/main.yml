@@ -4,4 +4,4 @@ header:
 repos:
   meta-arm:
     branch: master
-    commit: 7c2df809e0e27f271cc28b4a2631929985f0c8f7
+    commit: f20bd9ff62860a85cfbecd109485a269388df467
