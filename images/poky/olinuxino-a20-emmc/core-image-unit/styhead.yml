@@ -3,19 +3,19 @@ header:
   includes:
     - include/layers/poky/distro.yml
     - include/layers/meta-unit/core-image-unit.yml
-    - include/layers/meta-freescale-3rdparty/olimex-imx8mp-evb.yml
+    - include/layers/meta-sunxi-extra/olinuxino-a20-emmc.yml
     - include/layers/poky/remote.yml
     - include/layers/poky/styhead.yml
     - include/layers/poky/conf.yml
+    - include/layers/poky/passwordless-root-login.yml
     - include/layers/meta-openembedded/remote.yml
     - include/layers/meta-openembedded/styhead.yml
-    - include/layers/meta-freescale/remote.yml
-    - include/layers/meta-freescale/styhead.yml
-    - include/layers/meta-freescale/conf.yml
-    - include/layers/meta-freescale-3rdparty/remote.yml
-    - include/layers/meta-freescale-3rdparty/main.yml
-    - include/layers/meta-freescale-distro/remote.yml
-    - include/layers/meta-freescale-distro/main.yml
+    - include/layers/meta-arm/remote.yml
+    - include/layers/meta-arm/styhead.yml
+    - include/layers/meta-sunxi/remote.yml
+    - include/layers/meta-sunxi/main.yml
+    - include/layers/meta-sunxi-extra/remote.yml
+    - include/layers/meta-sunxi-extra/main.yml
     - include/layers/meta-virtualization/remote.yml
     - include/layers/meta-virtualization/main.yml
     - include/layers/meta-virtualization/conf.yml
@@ -24,8 +24,6 @@ header:
     - include/layers/meta-virtualization-extra/conf.yml
     - include/layers/meta-unit/remote.yml
     - include/layers/meta-unit/main.yml
-    - include/layers/meta-freescale-extra/remote.yml
-    - include/layers/meta-freescale-extra/main.yml
     - include/versions/styhead.yml
 
 repos:
@@ -35,3 +33,7 @@ repos:
       meta-oe:
       meta-networking:
       meta-python:
+  meta-arm:
+    layers:
+      meta-arm-toolchain:
+      meta-arm:

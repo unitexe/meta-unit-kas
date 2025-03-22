@@ -27,6 +27,7 @@ header:
     - include/layers/meta-unit/remote.yml
     - include/layers/meta-unit/main.yml
     - include/layers/this.yml
+    - include/versions/styhead.yml
 
 repos:
   meta-arm:

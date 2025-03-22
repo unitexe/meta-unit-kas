@@ -1,0 +1,7 @@
+header:
+  version: 18
+
+local_conf_header:
+  meta-python-versions: |
+    PREFERRED_VERSION_python3-grpcio-health-checking = "1.62.2"
+    PREFERRED_VERSION_python3-protobuf = "4.25.3"

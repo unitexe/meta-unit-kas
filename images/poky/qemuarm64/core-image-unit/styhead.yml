@@ -18,6 +18,7 @@ header:
     - include/layers/meta-virtualization-extra/conf.yml
     - include/layers/meta-unit/remote.yml
     - include/layers/meta-unit/main.yml
+    - include/versions/styhead.yml
 
 repos:
   meta-openembedded:
