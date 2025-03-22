@@ -13,6 +13,7 @@ header:
     - include/layers/meta-rockchip/remote.yml
     - include/layers/meta-rockchip/main.yml
     - include/layers/meta-rockchip/conf.yml
+    - include/layers/meta-rockchip/patches/walnascar/patches.yml
     - include/layers/meta-rockchip-extra/remote.yml
     - include/layers/meta-rockchip-extra/main.yml
     - include/layers/meta-openembedded/remote.yml
