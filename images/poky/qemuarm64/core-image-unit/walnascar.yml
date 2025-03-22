@@ -1,0 +1,22 @@
+header:
+  version: 18
+  includes:
+    - include/layers/poky/distro.yml
+    - include/layers/meta-unit/core-image-unit.yml
+    - include/layers/poky/qemuarm64.yml
+    - include/layers/poky/remote.yml
+    - include/layers/poky/main.yml
+    - include/layers/poky/conf.yml
+    - include/layers/poky/passwordless-root-login.yml
+    - include/layers/meta-openembedded/remote.yml
+    - include/layers/meta-openembedded/main.yml
+    - include/layers/meta-unit/remote.yml
+    - include/layers/meta-unit/main.yml
+
+repos:
+  meta-openembedded:
+    layers:
+      meta-filesystems:
+      meta-oe:
+      meta-networking:
+      meta-python:
