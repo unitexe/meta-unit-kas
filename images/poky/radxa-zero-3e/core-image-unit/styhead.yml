@@ -15,7 +15,7 @@ header:
     - include/layers/meta-rockchip/conf.yml
     - include/layers/meta-rockchip/patches/styhead/patches.yml
     - include/layers/meta-rockchip-extra/remote.yml
-    - include/layers/meta-rockchip-extra/main.yml
+    - include/layers/meta-rockchip-extra/styhead.yml
     - include/layers/meta-openembedded/remote.yml
     - include/layers/meta-openembedded/styhead.yml
     - include/layers/meta-virtualization/remote.yml
