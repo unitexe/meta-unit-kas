@@ -4,4 +4,4 @@ header:
 repos:
   meta-virtualization:
     branch: scarthgap
-    commit: 94ee980814d7c5824449b2745a934664adbf3007
+    commit: 52cf1d59c5af5b795a2efec6f6f33df78ce61c48
