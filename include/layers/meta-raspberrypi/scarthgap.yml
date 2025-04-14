@@ -4,4 +4,4 @@ header:
 repos:
   meta-raspberrypi:
     branch: scarthgap
-    commit: c153c694bd7a08de474470d7c1c7fd550117b162
+    commit: 3b27c95c163a042f8056066ec3d27edfcc42da7f
