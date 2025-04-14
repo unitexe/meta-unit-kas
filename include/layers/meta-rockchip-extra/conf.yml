@@ -1,0 +1,6 @@
+header:
+  version: 18
+
+local_conf_header:
+  meta-rockchip-extra: |
+    PREFERRED_PROVIDER_virtual/kernel = "linux-yocto"
