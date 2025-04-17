@@ -1,0 +1,7 @@
+header:
+  version: 18
+
+repos:
+  meta-openembedded:
+    branch: walnascar
+    commit: cac56410df895769bbbcf0d65a3981c3730144a5

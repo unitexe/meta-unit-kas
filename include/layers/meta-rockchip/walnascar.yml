@@ -1,0 +1,7 @@
+header:
+  version: 18
+
+repos:
+  meta-rockchip:
+    branch: walnascar
+    commit: 92b2b1c8942556f89d4b22db4b83f84514eb58da
