@@ -9,7 +9,7 @@ header:
     - include/layers/poky/conf.yml
     - include/layers/poky/passwordless-root-login.yml
     - include/layers/meta-arm/remote.yml
-    - include/layers/meta-arm/main.yml
+    - include/layers/meta-arm/walnascar.yml
     - include/layers/meta-rockchip/remote.yml
     - include/layers/meta-rockchip/walnascar.yml
     - include/layers/meta-rockchip/conf.yml
