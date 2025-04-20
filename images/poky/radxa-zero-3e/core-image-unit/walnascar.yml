@@ -29,6 +29,8 @@ header:
     - include/layers/meta-clang/walnascar.yml
     - include/layers/meta-unit/remote.yml
     - include/layers/meta-unit/main.yml
+    - include/layers/meta-unit-apps/remote.yml
+    - include/layers/meta-unit-apps/main.yml
     - include/layers/this.yml
 
 repos:
