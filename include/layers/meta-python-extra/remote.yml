@@ -1,0 +1,7 @@
+header:
+  version: 18
+
+repos:
+  meta-python-extra:
+    url: https://github.com/unitexe/meta-python-extra
+    path: layers/meta-python-extra

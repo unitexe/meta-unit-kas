@@ -1,0 +1,7 @@
+header:
+  version: 18
+
+repos:
+  meta-python-extra:
+    branch: main
+    commit: a078ad31faf3850ff154dc41982727e13a3cd081

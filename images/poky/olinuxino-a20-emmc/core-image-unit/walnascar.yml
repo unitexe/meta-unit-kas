@@ -10,6 +10,8 @@ header:
     - include/layers/poky/passwordless-root-login.yml
     - include/layers/meta-openembedded/remote.yml
     - include/layers/meta-openembedded/walnascar.yml
+    - include/layers/meta-python-extra/remote.yml
+    - include/layers/meta-python-extra/main.yml
     - include/layers/meta-arm/remote.yml
     - include/layers/meta-arm/walnascar.yml
     - include/layers/meta-sunxi/remote.yml
