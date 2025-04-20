@@ -30,6 +30,8 @@ header:
     - include/layers/meta-unit/main.yml
     - include/layers/meta-unit-apps/remote.yml
     - include/layers/meta-unit-apps/main.yml
+    - include/layers/meta-unit-profiling/remote.yml
+    - include/layers/meta-unit-profiling/main.yml
 
 repos:
   meta-openembedded:
