@@ -1,0 +1,7 @@
+header:
+  version: 18
+
+repos:
+  meta-unit-networking:
+    url: https://github.com/unitexe/meta-unit-networking
+    path: layers/meta-unit-networking
