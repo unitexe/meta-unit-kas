@@ -4,4 +4,4 @@ header:
 repos:
   meta-openembedded:
     branch: walnascar
-    commit: cac56410df895769bbbcf0d65a3981c3730144a5
+    commit: 0d2d2d193a1619b6dbebaf335f1ef785478049e3
