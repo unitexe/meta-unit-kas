@@ -19,13 +19,11 @@ header:
     - include/layers/meta-sunxi-extra/remote.yml
     - include/layers/meta-sunxi-extra/main.yml
     - include/layers/meta-virtualization/remote.yml
-    - include/layers/meta-virtualization/main.yml
+    - include/layers/meta-virtualization/walnascar.yml
     - include/layers/meta-virtualization/conf.yml
     - include/layers/meta-virtualization-extra/remote.yml
     - include/layers/meta-virtualization-extra/main.yml
     - include/layers/meta-virtualization-extra/conf.yml
-    - include/layers/meta-clang/remote.yml
-    - include/layers/meta-clang/walnascar.yml
     - include/layers/meta-unit/remote.yml
     - include/layers/meta-unit/main.yml
     - include/layers/meta-unit-apps/remote.yml

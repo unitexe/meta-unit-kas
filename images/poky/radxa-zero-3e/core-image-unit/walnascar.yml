@@ -22,7 +22,7 @@ header:
     - include/layers/meta-python-extra/remote.yml
     - include/layers/meta-python-extra/main.yml
     - include/layers/meta-virtualization/remote.yml
-    - include/layers/meta-virtualization/main.yml
+    - include/layers/meta-virtualization/walnascar.yml
     - include/layers/meta-virtualization/conf.yml
     - include/layers/meta-virtualization-extra/remote.yml
     - include/layers/meta-virtualization-extra/main.yml
@@ -37,6 +37,8 @@ header:
     - include/layers/meta-unit-profiling/main.yml
     - include/layers/meta-unit-networking/remote.yml
     - include/layers/meta-unit-networking/main.yml
+    - include/layers/meta-unit-ebpf/remote.yml
+    - include/layers/meta-unit-ebpf/main.yml
     - include/layers/this.yml
 
 repos:
