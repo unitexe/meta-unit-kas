@@ -4,4 +4,4 @@ header:
 repos:
   meta-unit-ebpf:
     branch: main
-    commit: 9229a3e3fc5364e1c09bfebd95f07820c08f6167
+    commit: ad3dee2da1e2f4d7e0e54aa70f2dfd24872dd853
