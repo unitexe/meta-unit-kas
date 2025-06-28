@@ -1,0 +1,7 @@
+header:
+  version: 18
+
+repos:
+  meta-unit-ebpf:
+    url: https://github.com/unitexe/meta-unit-ebpf
+    path: layers/meta-unit-ebpf
