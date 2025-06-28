@@ -4,4 +4,4 @@ header:
 repos:
   meta-arm:
     branch: walnascar
-    commit: 42928dcc171629b495bbfcd8eda17ef6b8bdbfa3
+    commit: c63ce2117ed9ad720c61a1e2df5d381ca1ac54a2

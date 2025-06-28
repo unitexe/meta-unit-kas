@@ -4,4 +4,4 @@ header:
 repos:
   meta-openembedded:
     branch: scarthgap
-    commit: 67ad83dd7c2485dae0c90eac345007af6195b84d
+    commit: 727811eaf256b88fd135be99559f2cbf14c82fce

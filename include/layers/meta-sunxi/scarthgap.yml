@@ -4,4 +4,4 @@ header:
 repos:
   meta-sunxi:
     branch: scarthgap
-    commit: c73c0a2c4a91a99ea822bbc1855060fe328c310b
+    commit: d5214c790e0488bcff392c9f1d3dfe5c4de21a34

@@ -1,0 +1,7 @@
+header:
+  version: 18
+
+repos:
+  meta-virtualization:
+    branch: walnascar
+    commit: d20e589758ac40a846a8cd22f3b646ef48d02647

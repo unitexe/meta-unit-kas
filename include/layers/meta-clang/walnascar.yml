@@ -4,4 +4,4 @@ header:
 repos:
   meta-clang:
     branch: walnascar
-    commit: 2c9678cce413fa6c6c84a8a631f4635a4f862f11
+    commit: b3e5449f0156884d18c17efff99654cde8251411

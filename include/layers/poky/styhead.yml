@@ -4,4 +4,4 @@ header:
 repos:
   poky:
     branch: styhead
-    commit: 70dc28ac287bf35541270cae1d99130a0f6b7b5f
+    commit: f57dc43765e76325b35e2b05390e41ea73ad810c
