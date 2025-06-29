@@ -1,7 +1,0 @@
-header:
-  version: 18
-
-repos:
-  meta-virtualization-extra:
-    branch: styhead
-    commit: 4b2c1a2bee8fe642b4b26646d8c0280cba47e12e

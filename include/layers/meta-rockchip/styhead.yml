@@ -1,7 +1,0 @@
-header:
-  version: 18
-
-repos:
-  meta-rockchip:
-    branch: styhead
-    commit: 5df1c49f540d4c6140a73fea180ca2f8ba74d864

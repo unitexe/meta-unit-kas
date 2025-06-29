@@ -1,7 +1,0 @@
-header:
-  version: 18
-
-repos:
-  meta-openembedded:
-    branch: styhead
-    commit: c93994f1bb601c57548b588d4f77a044d90822cf

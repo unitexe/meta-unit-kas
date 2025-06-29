@@ -1,7 +1,0 @@
-header:
-  version: 18
-
-repos:
-  meta-openembedded:
-    branch: scarthgap
-    commit: 727811eaf256b88fd135be99559f2cbf14c82fce

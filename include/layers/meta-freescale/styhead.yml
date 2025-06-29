@@ -1,7 +1,0 @@
-header:
-  version: 18
-
-repos:
-  meta-freescale:
-    branch: styhead
-    commit: 7dc8a623b9b3bb97567322b52f30ad784f8489be
