@@ -1,0 +1,7 @@
+header:
+  version: 18
+
+repos:
+  meta-virtualization:
+    branch: master-next
+    commit: 8ccefd2b33b8086e940f1018d3434cef40c80bed
