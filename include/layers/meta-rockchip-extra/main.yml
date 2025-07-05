@@ -4,4 +4,4 @@ header:
 repos:
   meta-rockchip-extra:
     branch: main
-    commit: 22bad02045378769db00cab2619c776632b11bd0
+    commit: bfb7a5043398ff0478bb68f52886e173533ec260
