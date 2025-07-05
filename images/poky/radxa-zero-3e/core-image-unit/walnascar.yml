@@ -20,23 +20,23 @@ header:
     - include/layers/meta-openembedded/remote.yml
     - include/layers/meta-openembedded/walnascar.yml
     - include/layers/meta-python-extra/remote.yml
-    - include/layers/meta-python-extra/main.yml
+    - include/layers/meta-python-extra/walnascar.yml
     - include/layers/meta-virtualization/remote.yml
     - include/layers/meta-virtualization/walnascar.yml
     - include/layers/meta-virtualization/conf.yml
     - include/layers/meta-virtualization-extra/remote.yml
-    - include/layers/meta-virtualization-extra/main.yml
+    - include/layers/meta-virtualization-extra/walnascar.yml
     - include/layers/meta-virtualization-extra/conf.yml
     - include/layers/meta-clang/remote.yml
     - include/layers/meta-clang/walnascar.yml
     - include/layers/meta-unit/remote.yml
     - include/layers/meta-unit/main.yml
     - include/layers/meta-unit-apps/remote.yml
-    - include/layers/meta-unit-apps/main.yml
+    - include/layers/meta-unit-apps/walnascar.yml
     - include/layers/meta-unit-profiling/remote.yml
-    - include/layers/meta-unit-profiling/main.yml
+    - include/layers/meta-unit-profiling/walnascar.yml
     - include/layers/meta-unit-networking/remote.yml
-    - include/layers/meta-unit-networking/main.yml
+    - include/layers/meta-unit-networking/walnascar.yml
     - include/layers/meta-unit-ebpf/remote.yml
     - include/layers/meta-unit-ebpf/main.yml
     - include/layers/this.yml
