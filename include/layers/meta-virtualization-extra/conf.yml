@@ -4,3 +4,4 @@ header:
 local_conf_header:
   meta-virtualization-extra: |
     DISTRO_FEATURES:append = " pam"
+    VIRTUAL-RUNTIME_dbus = "dbus-broker"
