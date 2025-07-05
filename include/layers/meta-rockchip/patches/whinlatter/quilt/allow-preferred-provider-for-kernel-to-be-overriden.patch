@@ -1,0 +1,26 @@
+diff --git a/conf/machine/include/radxa-zero-3.inc b/conf/machine/include/radxa-zero-3.inc
+index b351afa..0e38fd0 100644
+--- a/conf/machine/include/radxa-zero-3.inc
++++ b/conf/machine/include/radxa-zero-3.inc
+@@ -2,7 +2,7 @@ MACHINEOVERRIDES =. "radxa-zero-3:"
+ 
+ require conf/machine/include/rk3566.inc
+ 
+-PREFERRED_PROVIDER_virtual/kernel = "linux-yocto-dev"
++PREFERRED_PROVIDER_virtual/kernel ??= "linux-yocto-dev"
+ MACHINE_EXTRA_RRECOMMENDS += "kernel-modules"
+ 
+ UBOOT_MACHINE = "radxa-zero-3-rk3566_defconfig"
+diff --git a/conf/machine/include/rockchip-defaults.inc b/conf/machine/include/rockchip-defaults.inc
+index e52a686..58c43bc 100644
+--- a/conf/machine/include/rockchip-defaults.inc
++++ b/conf/machine/include/rockchip-defaults.inc
+@@ -5,7 +5,7 @@ MACHINEOVERRIDES =. "rockchip:"
+ # kernel
+ # RK_KERNEL_FITIMAGE needs to be set before the next "require ..."
+ RK_KERNEL_FITIMAGE ?= "True"
+-PREFERRED_PROVIDER_virtual/kernel ?= "linux-yocto"
++PREFERRED_PROVIDER_virtual/kernel ??= "linux-yocto"
+ KCONFIG_MODE ?= "alldefconfig"
+ MACHINE_ESSENTIAL_EXTRA_RDEPENDS_KERNEL = "kernel-devicetree"
+ MACHINE_ESSENTIAL_EXTRA_RDEPENDS += "${MACHINE_ESSENTIAL_EXTRA_RDEPENDS_KERNEL}"
