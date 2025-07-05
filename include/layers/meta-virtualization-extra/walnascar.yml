@@ -1,0 +1,7 @@
+header:
+  version: 18
+
+repos:
+  meta-virtualization-extra:
+    branch: walnascar
+    commit: e927667fed1710a4c56a15631933318e7811ad8d

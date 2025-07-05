@@ -1,0 +1,7 @@
+header:
+  version: 18
+
+repos:
+  meta-python-extra:
+    branch: walnascar
+    commit: 11a1a8f3422ad2d262718a1c82e66a66334a04aa
