@@ -1,0 +1,49 @@
+header:
+  version: 18
+  includes:
+    - include/layers/poky/distro.yml
+    - include/layers/meta-unit/core-image-unit.yml
+    - include/layers/meta-freescale-3rdparty/olimex-imx8mp-evb.yml
+    - include/layers/poky/remote.yml
+    - include/layers/poky/main.yml
+    - include/layers/poky/conf.yml
+    - include/layers/poky/passwordless-root-login.yml
+    - include/layers/meta-openembedded/remote.yml
+    - include/layers/meta-openembedded/main.yml
+    - include/layers/meta-python-extra/remote.yml
+    - include/layers/meta-python-extra/main.yml
+    - include/layers/meta-freescale/remote.yml
+    - include/layers/meta-freescale/main.yml
+    - include/layers/meta-freescale/conf.yml
+    - include/layers/meta-freescale-3rdparty/remote.yml
+    - include/layers/meta-freescale-3rdparty/main.yml
+    - include/layers/meta-freescale-distro/remote.yml
+    - include/layers/meta-freescale-distro/main.yml
+    - include/layers/meta-freescale-extra/remote.yml
+    - include/layers/meta-freescale-extra/main.yml
+    - include/layers/meta-virtualization/remote.yml
+    - include/layers/meta-virtualization/main-next.yml
+    - include/layers/meta-virtualization/conf.yml
+    - include/layers/meta-virtualization-extra/remote.yml
+    - include/layers/meta-virtualization-extra/main.yml
+    - include/layers/meta-virtualization-extra/conf.yml
+    - include/layers/meta-clang/remote.yml
+    - include/layers/meta-clang/main.yml
+    - include/layers/meta-unit/remote.yml
+    - include/layers/meta-unit/main.yml
+    - include/layers/meta-unit-apps/remote.yml
+    - include/layers/meta-unit-apps/main.yml
+    - include/layers/meta-unit-profiling/remote.yml
+    - include/layers/meta-unit-profiling/main.yml
+    - include/layers/meta-unit-networking/remote.yml
+    - include/layers/meta-unit-networking/main.yml
+    - include/layers/meta-unit-ebpf/remote.yml
+    - include/layers/meta-unit-ebpf/main.yml
+
+repos:
+  meta-openembedded:
+    layers:
+      meta-filesystems:
+      meta-oe:
+      meta-networking:
+      meta-python:
