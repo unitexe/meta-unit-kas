@@ -1,0 +1,7 @@
+header:
+  version: 18
+
+repos:
+  meta-raspberrypi:
+    url: https://github.com/alperak/meta-raspberrypi
+    path: layers/meta-raspberrypi

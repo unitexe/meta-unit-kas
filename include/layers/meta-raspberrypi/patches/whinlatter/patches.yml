@@ -1,0 +1,9 @@
+header:
+  version: 18
+
+repos:
+  meta-raspberrypi:
+    patches:
+      quilt:
+        repo: meta-unit-kas
+        path: include/layers/meta-raspberrypi/patches/whinlatter/quilt/
