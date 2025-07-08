@@ -1,0 +1,23 @@
+header:
+  version: 18
+  includes:
+    - include/layers/meta-virtualization-extra/pokyless.yml
+    - include/layers/meta-virtualization-extra/container-image-busybox.yml
+    - include/layers/meta-virtualization-extra/arm64-container.yml
+    - include/layers/poky/remote.yml
+    - include/layers/poky/main.yml
+    - include/layers/poky/conf.yml
+    - include/layers/meta-openembedded/remote.yml
+    - include/layers/meta-openembedded/main.yml
+    - include/layers/meta-virtualization/remote.yml
+    - include/layers/meta-virtualization/main-next.yml
+    - include/layers/meta-virtualization-extra/remote.yml
+    - include/layers/meta-virtualization-extra/main.yml
+
+repos:
+  meta-openembedded:
+    layers:
+      meta-filesystems:
+      meta-oe:
+      meta-networking:
+      meta-python:
