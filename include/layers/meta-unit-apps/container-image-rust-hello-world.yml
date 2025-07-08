@@ -1,0 +1,8 @@
+header:
+  version: 18
+
+target: container-image-rust-hello-world
+
+local_conf_header:
+  meta-unit-apps: |
+    PACKAGE_EXTRA_ARCHS:append = " container-dummy-provides"
