@@ -4,4 +4,4 @@ header:
 repos:
   meta-virtualization-extra:
     branch: main
-    commit: ef843bf4a6037ea199fe7f270c0bacf1afc900e3
+    commit: 84e6f7c51617a524412050df42395d2d9b20a8f9
