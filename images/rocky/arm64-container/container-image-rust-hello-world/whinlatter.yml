@@ -1,0 +1,25 @@
+header:
+  version: 18
+  includes:
+    - include/layers/meta-virtualization-extra/rocky.yml
+    - include/layers/meta-unit-apps/container-image-rust-hello-world.yml
+    - include/layers/meta-virtualization-extra/arm64-container.yml
+    - include/layers/poky/remote.yml
+    - include/layers/poky/main.yml
+    - include/layers/poky/conf.yml
+    - include/layers/meta-openembedded/remote.yml
+    - include/layers/meta-openembedded/main.yml
+    - include/layers/meta-virtualization/remote.yml
+    - include/layers/meta-virtualization/main.yml
+    - include/layers/meta-virtualization-extra/remote.yml
+    - include/layers/meta-virtualization-extra/main.yml
+    - include/layers/meta-unit-apps/remote.yml
+    - include/layers/meta-unit-apps/main.yml
+
+repos:
+  meta-openembedded:
+    layers:
+      meta-filesystems:
+      meta-oe:
+      meta-networking:
+      meta-python:
