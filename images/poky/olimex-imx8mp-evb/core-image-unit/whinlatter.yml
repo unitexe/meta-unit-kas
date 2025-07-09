@@ -22,7 +22,7 @@ header:
     - include/layers/meta-freescale-extra/remote.yml
     - include/layers/meta-freescale-extra/main.yml
     - include/layers/meta-virtualization/remote.yml
-    - include/layers/meta-virtualization/main-next.yml
+    - include/layers/meta-virtualization/main.yml
     - include/layers/meta-virtualization/conf.yml
     - include/layers/meta-virtualization-extra/remote.yml
     - include/layers/meta-virtualization-extra/main.yml

@@ -17,7 +17,7 @@ header:
     - include/layers/meta-raspberrypi/conf.yml
     - include/layers/meta-raspberrypi/patches/whinlatter/patches.yml
     - include/layers/meta-virtualization/remote.yml
-    - include/layers/meta-virtualization/main-next.yml
+    - include/layers/meta-virtualization/main.yml
     - include/layers/meta-virtualization/conf.yml
     - include/layers/meta-virtualization-extra/remote.yml
     - include/layers/meta-virtualization-extra/main.yml
