@@ -5,12 +5,12 @@ header:
     - include/layers/meta-virtualization/app-container.yml
     - include/layers/meta-virtualization-extra/arm64-container.yml
     - include/layers/poky/remote.yml
-    - include/layers/poky/walnascar.yml
+    - include/layers/poky/main.yml
     - include/layers/poky/conf.yml
     - include/layers/meta-openembedded/remote.yml
-    - include/layers/meta-openembedded/walnascar.yml
+    - include/layers/meta-openembedded/main.yml
     - include/layers/meta-virtualization/remote.yml
-    - include/layers/meta-virtualization/walnascar.yml
+    - include/layers/meta-virtualization/main.yml
     - include/layers/meta-virtualization-extra/remote.yml
     - include/layers/meta-virtualization-extra/main.yml
 
