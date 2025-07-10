@@ -1,0 +1,7 @@
+header:
+  version: 18
+
+repos:
+  meta-freescale-3rdparty:
+    branch: walnascar
+    commit: 68d47bf4dde321f1289758fe6c36bfbdad81fc30
