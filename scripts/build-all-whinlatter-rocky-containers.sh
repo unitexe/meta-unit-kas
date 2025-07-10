@@ -19,5 +19,6 @@ kas-container build ../images/rocky/arm64-container/app-container/whinlatter.yml
 kas-container build ../images/rocky/arm64-container/container-image-busybox/whinlatter.yml
 kas-container build ../images/rocky/arm64-container/container-image-rust-hello-world/whinlatter.yml
 kas-container build ../images/rocky/arm64-container/container-image-unitsrv/whinlatter.yml
+kas-container build ../images/rocky/arm64-container/container-image-unitsrvpy/whinlatter.yml
 
 deactivate
