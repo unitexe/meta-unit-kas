@@ -1,7 +1,7 @@
 header:
   version: 18
   includes:
-    - include/layers/poky/distro.yml
+    - include/layers/meta-unit/distro.yml
     - include/layers/meta-unit/core-image-unit.yml
     - include/layers/meta-raspberrypi/raspberrypi5.yml
     - include/layers/poky/remote.yml
