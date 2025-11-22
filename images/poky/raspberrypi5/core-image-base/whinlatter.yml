@@ -1,5 +1,5 @@
 header:
-  version: 18
+  version: 20
   includes:
     - include/layers/poky/distro.yml
     - include/layers/poky/core-image-base.yml
