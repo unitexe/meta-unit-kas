@@ -9,7 +9,7 @@ header:
     - include/layers/poky/conf.yml
     - include/layers/poky/passwordless-root-login.yml
     - include/layers/meta-openembedded/remote.yml
-    - include/layers/meta-openembedded/main.yml
+    - include/layers/meta-openembedded/whinlatter.yml
     - include/layers/meta-freescale/remote.yml
     - include/layers/meta-freescale/main.yml
     - include/layers/meta-freescale/conf.yml

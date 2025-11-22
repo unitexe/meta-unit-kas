@@ -4,7 +4,7 @@
 
 set -e
 
-target_files=("main.yml" "walnascar.yml")
+target_files=("main.yml" "whinlatter.yml")
 
 # For each layer directory...
 for dir in $1*/ ; do

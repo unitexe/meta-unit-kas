@@ -8,7 +8,7 @@ header:
     - include/layers/poky/main.yml
     - include/layers/poky/conf.yml
     - include/layers/meta-openembedded/remote.yml
-    - include/layers/meta-openembedded/main.yml
+    - include/layers/meta-openembedded/whinlatter.yml
     - include/layers/meta-virtualization/remote.yml
     - include/layers/meta-virtualization/main.yml
     - include/layers/meta-virtualization-extra/remote.yml

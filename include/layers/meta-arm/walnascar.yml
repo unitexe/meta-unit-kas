@@ -1,7 +1,0 @@
-header:
-  version: 18
-
-repos:
-  meta-arm:
-    branch: walnascar
-    commit: c63ce2117ed9ad720c61a1e2df5d381ca1ac54a2

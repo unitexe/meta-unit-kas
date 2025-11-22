@@ -1,0 +1,8 @@
+header:
+  version: 18
+
+target: container-image-bmaptool
+
+local_conf_header:
+  meta-virtualization-extra: |
+    PACKAGE_EXTRA_ARCHS:append = " container-dummy-provides"

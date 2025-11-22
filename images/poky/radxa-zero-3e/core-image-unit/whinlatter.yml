@@ -18,7 +18,7 @@ header:
     - include/layers/meta-rockchip-extra/main.yml
     - include/layers/meta-rockchip-extra/conf.yml
     - include/layers/meta-openembedded/remote.yml
-    - include/layers/meta-openembedded/main.yml
+    - include/layers/meta-openembedded/whinlatter.yml
     - include/layers/meta-python-extra/remote.yml
     - include/layers/meta-python-extra/main.yml
     - include/layers/meta-virtualization/remote.yml
@@ -37,6 +37,8 @@ header:
     - include/layers/meta-unit-profiling/main.yml
     - include/layers/meta-unit-networking/remote.yml
     - include/layers/meta-unit-networking/main.yml
+    - include/layers/meta-unit-networking/static-ip-address.yml
+    - include/conf/radxa-zero-3e/static-ip-address-assignment.yml
     - include/layers/meta-unit-ebpf/remote.yml
     - include/layers/meta-unit-ebpf/main.yml
     - include/layers/this.yml

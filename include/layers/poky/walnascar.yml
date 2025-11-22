@@ -4,4 +4,4 @@ header:
 repos:
   poky:
     branch: walnascar
-    commit: 41038342a471b4a8884548568ad147a1704253a3
+    commit: d0b46a6624ec9c61c47270745dd0b2d5abbe6ac1

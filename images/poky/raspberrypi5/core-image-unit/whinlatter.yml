@@ -9,13 +9,12 @@ header:
     - include/layers/poky/conf.yml
     - include/layers/poky/passwordless-root-login.yml
     - include/layers/meta-openembedded/remote.yml
-    - include/layers/meta-openembedded/main.yml
+    - include/layers/meta-openembedded/whinlatter.yml
     - include/layers/meta-python-extra/remote.yml
     - include/layers/meta-python-extra/main.yml
-    - include/layers/meta-raspberrypi/remote-alperak.yml
-    - include/layers/meta-raspberrypi/main-alperak.yml
+    - include/layers/meta-raspberrypi/remote.yml
+    - include/layers/meta-raspberrypi/main.yml
     - include/layers/meta-raspberrypi/conf.yml
-    - include/layers/meta-raspberrypi/patches/whinlatter/patches.yml
     - include/layers/meta-virtualization/remote.yml
     - include/layers/meta-virtualization/main.yml
     - include/layers/meta-virtualization/conf.yml
