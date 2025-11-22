@@ -8,8 +8,6 @@ bblayers_conf_header:
     BBFILES ?= ""
 
 local_conf_header:
-  reduce_diskspace: |
-    INHERIT += "rm_work_and_downloads"
   standard: |
     CONF_VERSION = "2"
     PACKAGE_CLASSES = "package_rpm"
