@@ -1,0 +1,15 @@
+header:
+  version: 20
+  includes:
+    - include/layers/bitbake/2.16.yml
+    - include/layers/bitbake/remote.yml
+    - include/layers/openembedded-core/whinlatter.yml
+    - include/layers/openembedded-core/remote.yml
+    - include/layers/openembedded-core/core-image-base.yml
+    - include/layers/openembedded-core/passwordless-root-login.yml
+    - include/layers/meta-yocto/whinlatter.yml
+    - include/layers/meta-yocto/remote.yml
+    - include/layers/meta-yocto/distro.yml
+    - include/layers/meta-riscv/remote.yml
+    - include/layers/meta-riscv/main.yml
+    - include/layers/meta-riscv/orangepi-rv2-mainline.yml

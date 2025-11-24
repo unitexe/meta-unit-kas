@@ -1,0 +1,7 @@
+header:
+  version: 20
+
+repos:
+  meta-riscv:
+    url: https://github.com/riscv/meta-riscv.git
+    path: layers/meta-riscv

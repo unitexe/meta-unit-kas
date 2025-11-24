@@ -1,0 +1,7 @@
+header:
+  version: 20
+
+repos:
+  meta-riscv:
+    branch: master
+    commit: fc1746007a686f0ec16cac4d72f1d0250cf461fc
