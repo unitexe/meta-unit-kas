@@ -9,7 +9,6 @@ header:
     - include/layers/openembedded-core/passwordless-root-login.yml
     - include/layers/meta-yocto/whinlatter.yml
     - include/layers/meta-yocto/remote.yml
-    - include/layers/meta-yocto/distro.yml
     - include/layers/meta-openembedded/remote.yml
     - include/layers/meta-openembedded/whinlatter.yml
     - include/layers/meta-freescale/remote.yml
@@ -17,6 +16,7 @@ header:
     - include/layers/meta-freescale/conf.yml
     - include/layers/meta-freescale-distro/remote.yml
     - include/layers/meta-freescale-distro/main.yml
+    - include/layers/meta-freescale-distro/fslc-wayland.yml
     - include/layers/meta-freescale-3rdparty/remote.yml
     - include/layers/meta-freescale-3rdparty/main.yml
     - include/layers/meta-freescale-3rdparty/olimex-imx8mp-evb.yml
