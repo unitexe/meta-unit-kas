@@ -5,7 +5,6 @@ header:
     - include/layers/bitbake/remote.yml
     - include/layers/openembedded-core/whinlatter.yml
     - include/layers/openembedded-core/remote.yml
-    - include/layers/openembedded-core/qemuarm64.yml
     - include/layers/meta-yocto/whinlatter.yml
     - include/layers/meta-yocto/remote.yml
     - include/layers/meta-openembedded/remote.yml
