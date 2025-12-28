@@ -4,4 +4,4 @@ header:
 repos:
   meta-clang:
     branch: master
-    commit: d0a67c76b7a3b585dbe2ba8ad509dc0fe0e58af2
+    commit: cf20f8bd1366d41094c945597b95dd746e87b871
